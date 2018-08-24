@@ -1,0 +1,4 @@
+- **NYT article Link Preview**
+- deployed to heroku
+- for NYT article link preview use '/article' route
+- try it: https://boiling-shelf-59019.herokuapp.com/
