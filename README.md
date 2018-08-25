@@ -3,7 +3,7 @@
 - for NYT article link preview use '/article' route
 - try it: https://boiling-shelf-59019.herokuapp.com/
 
-            *example*
+            _example_
 
 ```axios.get('https://boiling-shelf-59019.herokuapp.com/article', {
    headers: {
