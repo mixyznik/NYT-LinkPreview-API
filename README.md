@@ -5,7 +5,7 @@
 
             *example*
 
-`  axios.get('https://boiling-shelf-59019.herokuapp.com/article', {
+`axios.get('https://boiling-shelf-59019.herokuapp.com/article', {
    headers: {
      url: url  //url of an article
     }
