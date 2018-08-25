@@ -31,15 +31,15 @@ axios.get(url)
 
       console.log(response.status);
       let image = $('meta[name=image]').attr("content");
-      let url = $('meta[name=url]').attr("content");
+      let url1 = $('meta[name=url]').attr("content");
       let description = $('meta[name=description]').attr("content");
       let title = $(response.data).filter('title').text()
       console.log(title);
       const rest={
         title: title,
         description: description,
-        image: image ? image : resImage, 
-        url: url};
+        image: image ? image : resImage,
+        url: url1};
       res.json(rest);
     })
      .catch(error => {
