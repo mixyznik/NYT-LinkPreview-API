@@ -5,19 +5,21 @@
 
             *example*
 
-`axios.get('https://boiling-shelf-59019.herokuapp.com/article', {`
-   `headers: {`
-     `url: url  //url of an article`
-    `}`
-   `})`
-   `.then(function (response) {`
-   `console.log(response.data);`
-   `console.log(response.data.description);`
-   `self.setState({data: response.data});`
-   `})`
-   `.catch(function (error) {`
-      `console.log(error);`
-   `})`
-   `.then(function () {`
-   `// always executed`
- `});`
+```axios.get('https://boiling-shelf-59019.herokuapp.com/article', {
+   headers: {
+     url: url  //url of an article
+    }
+   })
+   .then(function (response) {
+   console.log(response.data);
+   console.log(response.data.description);
+   self.setState({data: response.data});
+   })
+   .catch(function (error) {
+      console.log(error);
+   })
+   .then(function () {
+   // always executed
+ });```
+
+
